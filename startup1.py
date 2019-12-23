@@ -181,7 +181,7 @@ elif (m=="February" or m=="february" or m=="august" or m=="August"):
         else:
             print("Invalid date enter proper date")
             
-    elif (d<=31and d>0):
+    elif (d<=31 and d>0):
         i=(5+d)%7
         if (d==4) and (i==2):
             print("Tuesday")
